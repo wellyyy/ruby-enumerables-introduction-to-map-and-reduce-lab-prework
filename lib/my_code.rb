@@ -80,19 +80,5 @@ def reduce_to_any_true(array)
   return true
 end
   
-def reduce_to_any_true_last(array)
-  here = 0
-  while count < array.length do
-    count += 1
-    if array[count] == false
-      here++
-    end
-    if here == array.length
-      return false
-    end
-    
-  end
-  return true 
-end
   
   
