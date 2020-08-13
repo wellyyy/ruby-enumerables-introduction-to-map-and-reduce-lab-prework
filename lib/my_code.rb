@@ -81,7 +81,8 @@ def reduce_to_any_true(array)
 end
 
 def reduce_to_any_true_last(array)
-  
+  array = false
+  array
 end
   
   
