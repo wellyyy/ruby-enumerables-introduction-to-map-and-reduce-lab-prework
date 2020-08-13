@@ -80,7 +80,7 @@ def reduce_to_any_true(array)
   return true
 end
   
-def reduce_to_any_true(array)
+def reduce_to_any_true_last(array)
   here = 0
   while count < array.length do
     count += 1
@@ -92,6 +92,7 @@ def reduce_to_any_true(array)
     end
     
   end
+  return true 
 end
   
   
