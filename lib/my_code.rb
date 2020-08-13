@@ -57,7 +57,15 @@ def reduce_to_total_point(array,point)
 end
 
 def reduce_to_all_true(array)
-  for i<arra
+  count = 0 
+  while count < array.length do
+    count += 1
+    if array[count] == false
+      return false
+    end
+  
+  end
+  return true
 end
   
   
