@@ -90,8 +90,9 @@ def reduce_to_any_true(array)
     if here == array.length
       return false
     end
-    return true
+    
   end
+  return true
 end
   
   
