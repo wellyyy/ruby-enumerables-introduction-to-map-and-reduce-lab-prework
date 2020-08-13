@@ -80,6 +80,15 @@ def reduce_to_any_true(array)
   return true
 end
   
-reduce_to_any_true
+def reduce_to_any_true(array)
+  here = 0
+  while count < array.length do
+    if array[count] == false
+      here++
+    end
+    if here == array.length
+    count += 1
+    end
+end
   
   
