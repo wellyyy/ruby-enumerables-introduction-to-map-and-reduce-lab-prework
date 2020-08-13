@@ -55,6 +55,8 @@ def reduce_to_total_point(array,point)
   end
   point
 end
+
+
   
   
   
