@@ -56,7 +56,9 @@ def reduce_to_total_point(array,point)
   point
 end
 
-def reduce_to_all_true
+def reduce_to_all_true(array)
+  for i<arra
+end
   
   
   
