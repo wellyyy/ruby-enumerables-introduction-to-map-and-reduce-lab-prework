@@ -80,7 +80,6 @@ def reduce_to_any_true(array)
   return true
 end
   
-  
-  
+reduce_to_any_true
   
   
